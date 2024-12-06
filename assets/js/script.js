@@ -82,7 +82,7 @@ if (moyenne === 0){
                  console.log("Excellent trimestre")
                  } else {
                     console.log  ("Veuillez entrer une valeur valide");
-                 } */
+                 } 
 
 
 
@@ -128,3 +128,66 @@ switch (option) {
                                                         alert("valeur non valide");
                                                             break; 
                                                             }
+
+
+
+
+                                                            if (confirmation) {
+                                                                console.log("L'utilisateur a cliqué OK");
+                                                              } else {
+                                                                console.log("L'utilisateur n'a pas validé");
+                                                              
+                                                              
+                                                              }
+                                                              
+                                                              let i = 1;
+                                                              while (i <= 100) {
+                                                                console.log(i);
+                                                                i++;
+                                                              }
+                                                              
+                                                              
+                                                              let i = 100;
+                                                              while (i >= 0) {
+                                                                if (i % 2 === 0) {
+                                                                  console.log(i);
+                                                                }
+                                                                i--;
+                                                              }
+                                                              
+                                                              let nb1 = 3;
+                                                              let nb2 = 6;
+                                                              let somme = nb1 + nb2;
+                                                              
+                                                              while (somme <= 2023) {
+                                                                console.log(somme);
+                                                                nb2 += somme;
+                                                                somme = nb1 + nb2;
+                                                              }
+                                                              
+                                                              
+                                                              let i = 1;
+                                                              while (i <= 10) {
+                                                                if (i === 10) {
+                                                                  console.log("Message " + i + ", C'est le dernier message !");
+                                                                } else {
+                                                                  console.log("Message " + i);
+                                                                }
+                                                                i++;
+                                                              }
+                                                              
+                                                              for (let i = 1; i <= 13; i++) {
+                                                                  console.log("Vendredi 13");
+                                                                }
+                                                              
+                                                              
+                                                              
+                                                              console.log("Start !!");
+                                                              for (let i = 20; i >= 0; i--) {
+                                                                console.log(i);
+                                                              }
+                                                              console.log("Finish !!")
+                                                              */
+
+
+                                                              

@@ -8,6 +8,7 @@ console.log ( "firstname : " + typeof firstname)
 console.log ( " age : " + typeof age)
 console.log ( " city : " + typeof city) */
 
+
 /*
 let username = prompt ("Enter your name" );
 let surname = prompt  ("Enter your name" );
@@ -51,8 +52,6 @@ if (number % 2 === 0) {
             alert("Welcome Nicolas ");
         } */
 
-
-
 /*
 let genre = prompt("Veuillez entrer votre genre (homme ou femme) :");
 let age = parseInt(prompt("Veuillez entrer votre âge :"));
@@ -65,7 +64,6 @@ if (genre === "homme" && age >= 18) {
 } else if (genre === "femme" && age >= 18) {
   alert("Vous êtes une femme majeure");
 } else alert("Vous êtes une femme mineure"); */
-
 
 /*
 let moyenne = parseFloat(prompt("rentrer moyenne d'un élève de l'AFPA ( / 20) "));
@@ -82,10 +80,9 @@ if (moyenne === 0){
                  console.log("Excellent trimestre")
                  } else {
                     console.log  ("Veuillez entrer une valeur valide");
-                 } 
+                 } */
 
-
-
+/*
 let option = prompt("rentrer un numéro de mois entre 1 et 12 inclus.")       
 switch (option) {
     case "1":
@@ -128,66 +125,96 @@ switch (option) {
                                                         alert("valeur non valide");
                                                             break; 
                                                             }
+                                                            
 
 
 
+  
+letchiffre = parseInt(prompt("Veuillez entrer un chiffre entier :"));
+ console.log((chiffre % 2 === 0) ? "PAIR" : "IMPAIR");
+                                                            
+                                                            
+let confirmation = window.confirm("En cliquant sur OK, je confirme que je rentre sur ce site en 'mon âme et conscience'");
 
-                                                            if (confirmation) {
-                                                                console.log("L'utilisateur a cliqué OK");
-                                                              } else {
-                                                                console.log("L'utilisateur n'a pas validé");
-                                                              
-                                                              
-                                                              }
-                                                              
-                                                              let i = 1;
-                                                              while (i <= 100) {
-                                                                console.log(i);
-                                                                i++;
-                                                              }
-                                                              
-                                                              
-                                                              let i = 100;
-                                                              while (i >= 0) {
-                                                                if (i % 2 === 0) {
-                                                                  console.log(i);
-                                                                }
-                                                                i--;
-                                                              }
-                                                              
-                                                              let nb1 = 3;
-                                                              let nb2 = 6;
-                                                              let somme = nb1 + nb2;
-                                                              
-                                                              while (somme <= 2023) {
-                                                                console.log(somme);
-                                                                nb2 += somme;
-                                                                somme = nb1 + nb2;
-                                                              }
-                                                              
-                                                              
-                                                              let i = 1;
-                                                              while (i <= 10) {
-                                                                if (i === 10) {
-                                                                  console.log("Message " + i + ", C'est le dernier message !");
-                                                                } else {
-                                                                  console.log("Message " + i);
-                                                                }
-                                                                i++;
-                                                              }
-                                                              
-                                                              for (let i = 1; i <= 13; i++) {
-                                                                  console.log("Vendredi 13");
-                                                                }
-                                                              
-                                                              
-                                                              
-                                                              console.log("Start !!");
-                                                              for (let i = 20; i >= 0; i--) {
-                                                                console.log(i);
-                                                              }
-                                                              console.log("Finish !!")
-                                                              */
+                                                        
+if (confirmation) {
+  console.log("L'utilisateur a cliqué OK");
+} else {
+  console.log("L'utilisateur n'a pas validé");
 
 
-                                                              
+}
+
+let i = 1;
+while (i <= 100) {
+  console.log(i);
+  i++;
+}
+
+
+let i = 100;
+while (i >= 0) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+  i--;
+}
+
+let nb1 = 3;
+let nb2 = 6;
+let somme = nb1 + nb2;
+
+while (somme <= 2023) {
+  console.log(somme);
+  nb2 += somme;
+  somme = nb1 + nb2;
+}
+
+
+let i = 1;
+while (i <= 10) {
+  if (i === 10) {
+    console.log("Message " + i + ", C'est le dernier message !");
+  } else {
+    console.log("Message " + i);
+  }
+  i++;
+}
+
+for (let i = 1; i <= 13; i++) {
+    console.log("Vendredi 13");
+  }
+
+
+
+console.log("Start !!");
+for (let i = 20; i >= 0; i--) {
+  console.log(i);
+}
+console.log("Finish !!")
+
+
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
+      console.log("Fizz");
+  } else if (i % 5 === 0) {
+      console.log("Buzz");
+  } else {
+      console.log(i);
+  }
+} 
+
+  let kebabCaseString = ""; 
+
+  for (let i = 1; i <= 10; i++) {
+      kebabCaseString += i; 
+      if (i < 10) { 
+          kebabCaseString += "-";
+      }
+  }
+  
+  console.log(kebabCaseString); 
+   */
